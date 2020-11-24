@@ -9,19 +9,19 @@ public class Locations{
     String country;
 }
 public int getId(){
-    return Id;
+    return this.Id;
 }
 public String getCity(){
-    return city;
+    return this.city;
 }
 public String getAddress(){
-    return address;
+    return this.address;
 }
 public String getRegion(){
-    return region;
+    return this.region;
 }
 public String getCountry(){
-    return country;
+    return this.country;
 }
 public void setId(int newId){
     this.Id = newId;
