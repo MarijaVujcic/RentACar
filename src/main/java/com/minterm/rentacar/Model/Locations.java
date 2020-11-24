@@ -1,4 +1,4 @@
-package com.minterm.rentacar;
+package com.minterm.rentacar.Model;
 
 @Entity
 public class Locations{

@@ -7,8 +7,8 @@ public class ReservationStatus {
     String done;
 
     public String getCancel() {
-
-   
+        return this.cancel;
+    }
 
     public void setCancel(String cancel) {
         this.cancel = cancel;
