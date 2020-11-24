@@ -12,31 +12,31 @@ public class Cars {
     Bool reserved;
 }
 public int getId(){
-    return Id;
+    return this.Id;
 }
 public String getBrand(){
-    return brand;
+    return this.brand;
 }
 public String getModel(){
-    return model;
+    return this.model;
 }
 public int getNum_of_sitts(){
-    return num_of_sitts;
+    return this.num_of_sitts;
 }
 public float getPrice(){
-    return price;
+    return this.price;
 }
 public String getDescription(){
-    return description;
+    return this.description;
 }
 public Bool getAutomatic(){
-    return automatic;
+    return this.automatic;
 }
 public int getNum_of_doors(){
-    return num_of_doors;
+    return this.num_of_doors;
 }
 public Bool getReserved(){
-    return reserved;
+    return this.reserved;
 }
 public void setId(int newId){((
     this.Id = newId;
