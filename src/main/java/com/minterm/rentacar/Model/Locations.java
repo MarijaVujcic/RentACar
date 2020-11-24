@@ -1,3 +1,6 @@
+package com.minterm.rentacar;
+
+@Entity
 public class Locations{
     int Id;
     String city;

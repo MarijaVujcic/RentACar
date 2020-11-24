@@ -1,3 +1,5 @@
+package com.minterm.rentacar;
+
 public class Cars {
     int Id;
     String brand;
