@@ -11,6 +11,13 @@ public class Locations {
     public int getId(){
         return this.Id;
     }
+    public Locations(int Id, String city, String address, String region, String country){
+        this.Id = Id;
+        this.city = city;
+        this.address = address;
+        this.region = region;
+        this.country = country;
+    }
     public String getCity(){
         return this.city;
     }

@@ -14,6 +14,17 @@ public class Cars {
     public int getId(){
         return this.Id;
     }
+    public Cars(int Id, String brand, String model, int num_of_sitts, float price, String description, Bool automatic, int num_of_sitts, Bool reserved){
+        this.Id = Id;
+        this.brand = brand;
+        this.model = model;
+        this.num_of_sitts = num_of_sitts;
+        this.price = price;
+        this.description = description;
+        this.automatic = automatic;
+        this.num_of_doors = num_of_doors;
+        this.reserved = reserved;
+    }
     public String getBrand(){
         return this.brand;
     }
