@@ -1,5 +1,9 @@
 package com.minterm.rentacar.Model;
 
+import javax.persistence.Entity;
+
+
+
 @Entity
 public class Locations {
     int Id;

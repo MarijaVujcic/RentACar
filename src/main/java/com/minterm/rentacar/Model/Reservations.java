@@ -1,7 +1,10 @@
 package com.minterm.rentacar.Model;
 import java.util.Date;
 
-public class Reservations(){
+import javax.persistence.Entity;
+
+@Entity
+public class Reservations{
     int CarID;
     int UserID;
     Date StartDateTime;

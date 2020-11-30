@@ -1,6 +1,9 @@
 package com.minterm.rentacar.Model;
 
-public class Payments() {
+import javax.persistence.Entity;
+
+@Entity
+public class Payments {
     int ID;
     String TypesOfPayments;
 

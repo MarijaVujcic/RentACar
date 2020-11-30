@@ -1,5 +1,8 @@
 package com.minterm.rentacar.Model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class ReservationStatus {
     String cancel;
     String confirm;
